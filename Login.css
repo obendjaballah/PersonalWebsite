@@ -22,6 +22,7 @@ body *{
         background: linear-gradient(to bottom, rgba(0,50,150,0.4), rgba(0,0,30,0.3));
         background-size: cover;
         border-radius: 5px;
+        margin-top: 30px;
       }
       .form .first-login{
         color: #333;}
