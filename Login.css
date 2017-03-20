@@ -6,7 +6,7 @@ body{
         background-position: center center;
         background-color: rgba(0,0,0,0.60);
         z-index: -5;
-        margin-top: 40px;
+        margin-top: 0px;
       }
 body *{
     transition:0.2 ease;
