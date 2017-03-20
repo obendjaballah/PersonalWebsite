@@ -1,24 +1,19 @@
-/*
-    IMPORTANT :
-    Background Image from unsplash
-    
-    feel free to use this code !
-*/
 body{
         padding-top: 50px;
         font-family: Montserrat, sans-serif;
-        background-image: url("Iphone7.jpg");
+        background-image: url("Iphone.jpg");
         background-size: cover;
         background-position: center center;
         background-color: rgba(0,0,0,0.60);
         z-index: -5;
+        margin-top: 40px;
       }
 body *{
     transition:0.2 ease;
     -o-transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     -webkit-transition:0.2s ease;
-}
+      }
       .form{
         padding: 0 0 1em 0;
         width:90%;
@@ -93,7 +88,7 @@ body *{
         -moz-transition: .4s;
         -webkit-transition: .4s;
         transition: .4s;
-}
+        }
       .slider:before {
         position: absolute;
         content: "";
@@ -173,6 +168,12 @@ body *{
       .sign-up a{
         color:#007CFF ;
       }
+
+      .container {
+        margin-top: 0px;
+        padding: 15px;
+      }
+
       @media(max-width:768px){
         .form{
           width:100%;
